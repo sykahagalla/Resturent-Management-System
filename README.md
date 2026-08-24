@@ -2,7 +2,7 @@
 
 A full-stack, real-time web application designed to digitize restaurant operations. FlavorDash seamlessly connects Customers placing orders, Kitchen Staff preparing food, and Administrators managing the business through three distinct frontend clients communicating with a central Node.js backend via REST APIs and WebSockets.
 
-## 🌟 Key Features
+## Key Features
 
 - **Real-Time Kitchen Display System (KDS):** Instant order synchronization using Socket.io. Kitchen staff see new orders immediately with live timers and status indicators.
 - **Customer Ordering & Tracking:** Customers can browse menus, apply promotional codes, place orders, and receive real-time updates and audio notifications when their food is ready.
@@ -11,7 +11,7 @@ A full-stack, real-time web application designed to digitize restaurant operatio
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 FlavorDash is built on a distributed **Client-Server Architecture**. It features three distinct React Single Page Application (SPA) clients communicating with a central Node.js/Express backend server, which interfaces with a MongoDB database. 
 
@@ -126,7 +126,7 @@ npm run dev
 
 ---
 
-## 🧪 Testing & CI/CD Results
+## Testing & CI/CD Results
 
 FlavorDash includes a comprehensive testing suite utilizing **Jest** (Backend) and **Vitest** (Frontend). Below are the results from our latest automated CI run demonstrating the success of the system architecture.
 
